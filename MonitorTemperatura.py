@@ -6,7 +6,7 @@ page = ""
 # print(page.content)
 def verificar_temperatura():
 
-    page = requests.get('http://10.239.83.210/4sensor.htm')
+    page = requests.get('http://ip/4sensor.htm')
 
     soup = ""
     soup = BeautifulSoup(page.content, 'html.parser')
