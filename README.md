@@ -5,8 +5,7 @@ A integração entre Python e a Alexa pode ser muito útil para monitoramento na
 
 
 [![Video do Projeto](assist.png)](https://www.youtube.com/watch?v=V7axe8ULVFU)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V7axe8ULVFU?si=R98Z43WKGvGv9E7Q&amp;start=95" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Assista o vídeo demonstrativo
 
 ## :rocket: Tecnologias utilizadas / technologies used:
 - Python
