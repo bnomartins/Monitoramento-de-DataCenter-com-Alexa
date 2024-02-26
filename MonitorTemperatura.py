@@ -21,19 +21,3 @@ def verificar_temperatura():
     page = ""
     monitor = [temperatura, humidade]
     return monitor
-
-
-# print(monitor[1])
-
-# print(monitor[1])
-# import requests
-# from bs4 import BeautifulSoup
-
-# url = requests.get('http://10.239.83.210/4sensor.htm')
-
-# soup = BeautifulSoup(url.content, 'html.parser')
-
-# result = soup.find_all('td')[1].get_text()
-
-# print(result)
-
