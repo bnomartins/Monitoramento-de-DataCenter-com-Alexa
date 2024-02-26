@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 # iniciação
                 if (iniciado == 0):
 
-                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Monitoramento ativado/2399368517623')
+                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Monitoramento ativado/')
 
                     # speak.say(f"Assistente iniciado e disponível!")
                     # speak.say(f"A temperatura da sala está em {temp} graus celsius e a umidade está em {hum} por cento!")
@@ -58,14 +58,14 @@ if __name__ == "__main__":
                 if float(temp) > float(23.0) and cont in (5, 10, 20, 30, 40, 50) and iniciado_temp < 1:
                     # monitor = verificar_temperatura()
                     # speak.say(f"A sala do Datacenter está em {temp} graus célsius e {hum} por cento de humidade relativa do ar")   
-                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Atenção risco de colapso no datacenter A Temperatura da sala está em {temp} graus celsius /2399368517623')
+                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Atenção risco de colapso no datacenter A Temperatura da sala está em {temp} graus celsius /')
                     iniciado_temp = 1
                 
                 # Monitoramento de umidade
                 if float(hum) > float(70.0) and cont in (5, 10, 20, 30, 40, 50) and iniciado_temp < 1:
                     # monitor = verificar_temperatura()
                     # speak.say(f"A sala do Datacenter está em {temp} graus célsius e {hum} por cento de humidade relativa do ar")   
-                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Atenção risco de colapso no datacenter A umidade da sala está em {hum} por cento /2399368517623')
+                    webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/Atenção risco de colapso no datacenter A umidade da sala está em {hum} por cento /')
                     iniciado_temp = 1
                 
                 microfone.adjust_for_ambient_noise(source)              
@@ -76,7 +76,7 @@ if __name__ == "__main__":
                     frasemin = frase.lower()
 
                     if 'assistente qual a temperatura da sala do data center' in frasemin or 'assistente temperatura data center' in frasemin :
-                        webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/A Temperatura da sala está em {temp} graus celsius e a humidade relativa do ar está em {hum}/2399368517623')
+                        webbrowser.open(f'https://bno23.pythonanywhere.com/monitoramento/A Temperatura da sala está em {temp} graus celsius e a humidade relativa do ar está em {hum}/')
 
                     print(frase)
                                 
